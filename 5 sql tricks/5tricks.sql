@@ -1,3 +1,4 @@
+-- The below SQL queries are performed in Snowflake, Hope it will work other tools also
 1. Use group by & order by like below
 
 select category, sum(sales) as total_sales, year(order_date) as year_order
